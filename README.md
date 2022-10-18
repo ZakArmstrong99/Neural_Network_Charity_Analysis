@@ -2,6 +2,8 @@
 
 ## Overview of the analysis:
 
+The purpose of this analysis was to create a deep learning model that uses charity data to predict if potential applicants are sucessful if they are funded by Alphabet Soup. The charity data contains many variables and the data had to be preprocessed before creating the model. After the first model was created, another model was created with the intention of optmizing the data further to give the model more accuracy.
+
 ## Results:
 
 ### Data Preprocessing
