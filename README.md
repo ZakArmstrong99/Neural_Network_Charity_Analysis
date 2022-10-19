@@ -2,7 +2,7 @@
 
 ## Overview of the analysis:
 
-The purpose of this analysis was to create a deep learning model that uses charity data to predict if potential applicants are sucessful if they are funded by Alphabet Soup. The charity data contains many variables and the data had to be preprocessed before creating the model. After the first model was created, another model was created with the intention of optmizing the data further to give the model more accuracy.
+The purpose of this analysis was to create a deep learning model that uses charity data to predict if potential applicants are successful if they are funded by Alphabet Soup. The charity data contains many variables and the data had to be preprocessed before creating the model. After the first model was created, another model was created with the intention of optimizing the data further to give the model more accuracy.
 
 ## Results:
 
@@ -26,10 +26,13 @@ The model consists of two hidden layers with one containing 80 units and the oth
 
 - **Were you able to achieve the target model performance?**
 
-I was able the get an accuracy of .725 and a lost of .560.
+I was able to get an accuracy of .725 and a loss of .560.
 
 - **What steps did you take to try and increase model performance?**
 
-In order to increase the model performance, I tried binning the INCOME_AMT column, adding two more hidden layers while changing the units (100, 80, 30, 10) while using tanh and relu, and increased the fit to go for 200 epochs. While my attempts led to some improvement, it was only a minor increase of .729 accuracy.
+In order to increase the model performance, I tried binning the INCOME_AMT column, adding two more hidden layers while changing the units (100, 80, 30, 10) while using tanh and relu, and increased the fit to go for 200 epochs. While my attempts led to some improvement, it was only a minor increase of .7295 accuracy.
 
 ## Summary: 
+
+Overall the model was pretty accurate with around 73% accuracy. While this model worked pretty well, getting a better understanding of the relationship between the variables could provide insight on how to increase the performance of the deep learning model. That being said, I think using an unsupervised learning model including clustering could help decide which columns to drop in a deep learning model. This is because the plotted clusters visualize the relationships between the columns and could help optimize the deep learning model.
+
