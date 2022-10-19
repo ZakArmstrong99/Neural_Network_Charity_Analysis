@@ -20,8 +20,16 @@ The features are everything in the csv except the target and id variables.
 The EIN and NAME columns are neither targets nor features and were removed from the data.
 
 ### Compiling, Training, and Evaluating the Model
-- How many neurons, layers, and activation functions did you select for your neural network model, and why?
-- Were you able to achieve the target model performance?
-- What steps did you take to try and increase model performance?
+- **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
+
+The model consists of two hidden layers with one containing 80 units and the other containing 30. The two hidden layers used the relu activation function, and the output layer used the sigmoid activation function. These functions were used because they gave better results than the other functions, most likely because the encoded columns ranged from 0 to 1.
+
+- **Were you able to achieve the target model performance?**
+
+I was able the get an accuracy of .725 and a lost of .560.
+
+- **What steps did you take to try and increase model performance?**
+
+In order to increase the model performance, I tried binning the INCOME_AMT column, adding two more hidden layers while changing the units (100, 80, 30, 10) while using tanh and relu, and increased the fit to go for 200 epochs. While my attempts led to some improvement, it was only a minor increase of .729 accuracy.
 
 ## Summary: 
